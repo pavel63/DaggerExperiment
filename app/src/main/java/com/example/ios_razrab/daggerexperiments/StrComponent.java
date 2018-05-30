@@ -2,9 +2,11 @@ package com.example.ios_razrab.daggerexperiments;
 
 import dagger.Component;
 
-@Component(modules = {StringModule .class, BooleanModuleee .class})
+@Component(modules = {StringModule .class, BooleanModuleee .class, IntegerModule .class})
 public interface StrComponent {
 
-    String getStringoo();
-    Boolean getBll();
+    void injectMa(MainActivity mainActivity);
+
+   // String getStringoo();
+   // Boolean getBll();
 }
