@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         DaggerStrComponent .create() .injectMa(this);
 
+        new SecondClass() .printResult();
 
 
     }

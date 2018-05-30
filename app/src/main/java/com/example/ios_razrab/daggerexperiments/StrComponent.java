@@ -7,6 +7,7 @@ public interface StrComponent {
 
     void injectMa(MainActivity mainActivity);
 
+    void inject(SecondClass secondClass);
    // String getStringoo();
    // Boolean getBll();
 }
